@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<dbinfo>
+	<database>
+		<drivername>com.mysql.jdbc.Driver</drivername>
+		<urlConn>jdbc:mysql://192.168.67.67:3306/douban</urlConn>
+		<username>root</username>
+		<password>123456</password>
+		<!--连接池中最小连接数 -->
+		<minConnections>1</minConnections>
+		<!--连接池中最大连接数 -->
+		<maxConnections>10</maxConnections>
+		<!-- 重复获得连接的频率 -->
+		<connTimeOut>1000</connTimeOut>
+		<!-- 最大允许的连接数 -->
+		<maxActiveConnections>100</maxActiveConnections>
+	</database>
+</dbinfo>
